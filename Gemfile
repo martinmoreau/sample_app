@@ -5,6 +5,12 @@ source 'https://rubygems.org'
 gem 'rails', '4.2.2'
 # bcrypt for hashing passwords
 gem 'bcrypt',               '3.1.7'
+# faker for creating random users
+gem 'faker',                '1.4.2'
+# rails pagination
+gem 'will_paginate',           '3.0.7'
+# boodstrap pagination
+gem 'bootstrap-will_paginate', '0.0.10'
 # Boodstrap-sass
 gem 'bootstrap-sass',       '3.2.0.0'
 # Use sqlite3 as the database for Active Record
